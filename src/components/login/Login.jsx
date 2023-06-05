@@ -4,7 +4,7 @@ import "./Login.css";
 
 export default function Login() {
   const [username, setUsername] = useState(null);
-  const [avatar, setAvatar] = useState("👧");
+  const [avatar, setAvatar] = useState("🐨");
   const [error, setError] = useState("");
 
   const { onUserLogin } = useContext(UserContext);
@@ -44,15 +44,15 @@ export default function Login() {
                 className="form__avatar-input"
                 onChange={(e) => setAvatar(e.target.value)}
               >
-                <option value="👧">👧</option>
-                <option value="🧒">🧒</option>
-                <option value="😈">😈</option>
-                <option value="🤖">🤖</option>
-                <option value="🎃">🎃</option>
-                <option value="👽">👽</option>
-                <option value="👻">👻</option>
-                <option value="🌸">🌸</option>
-                <option value="🦔">🦔</option>
+                <option value="🐨">🐨</option>
+                <option value="🦄">🦄</option>
+                <option value="🐶">🐶</option>
+                <option value="🐯">🐯</option>
+                <option value="🦁">🦁</option>
+                <option value="🐱">🐱</option>
+                <option value="🦝">🦝</option>
+                <option value="🦊">🦊</option>
+                <option value="🐺">🐺</option>
                 <option value="🐸">🐸</option>
               </select>
             </div>
