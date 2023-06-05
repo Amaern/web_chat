@@ -9,6 +9,7 @@
     height: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
+    color: #809eb6;
   }
   
   .c-header__button__item {
@@ -29,11 +30,14 @@
   }
   
   .c-header__button {
-    background-color: #758e79;
+    background-color: #809eb6;
+    color: white;
     width: 70%;
     height: 40%;
     border-radius: 15px;
+    border: none;
     font-size: 1em;
+    font-weight: 300;
   }
   
   @media screen and (max-width: 1160px) {

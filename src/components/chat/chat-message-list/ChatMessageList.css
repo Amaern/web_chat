@@ -17,7 +17,7 @@
   .c-message__avatar {
     width: 60px;
     height: 60px;
-    background-color: rgb(134, 134, 134);
+    object-fit: cover;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -35,15 +35,18 @@
     width: fit-content;
     line-height: 1.5em;
     border: 2px solid #dfdbdb;
-    border-radius: 1em;
+    border-radius: 0px 10px 10px 10px;
     padding: 10px;
     margin: 0 10px;
-    background-image: linear-gradient(to right, rgb(143, 142, 142), #dfdbdb);
+    background-color: #e5f0f5;
+    color: #809eb6;
     text-align: justify;
   }
   
   .my-message {
-    background-image: linear-gradient(to left, rgb(196, 138, 120), #dfdbdb);
+    background-color: #809eb6;
+    color: white;
+    border-radius: 10px 0px 10px 10px;
   }
   
   .c-message__message__username {
