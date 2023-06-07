@@ -19,14 +19,16 @@ export default function ChatSendMessage() {
     <div className="c-send-message__item">
       <div className="c-send-message__message">Message: </div>
       <div className="c-send-message__form">
-        <form className="message-form__item" onSubmit={sendMessage}>
+      <form className="message-form__item">
           <input
             className="message-form__input"
             type="text"
             onChange={(e) => setMessage(e.target.value)}
             value={message}
           />
-          <button className="message-form__button">Send</button>
+          <button onClick={sendMessage} className="message-form__button">
+            Send
+          </button>
         </form>
       </div>
     </div>
